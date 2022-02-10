@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 img {
+    width: 100%;
+    height: 680px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 1.5%;
+    background-color: #011478;
+    color: white;
+}
+
+.header h2 span {
+    color: gold;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 50%;
+}
+
+.header ul button {
+    width: 80px;
+    padding: 5px;
+    background-color: gold;
+    color: white;
+}
+
+.container1 {
+    position: relative;
+}
+
+.container1 .textbox h2 span {
+    color: gold;
+}
+
+.container1 .textbox1 {
+    position: absolute;
+    font-size: 35px;
+    width: 60%;
+    top: 30%;
+    margin-left: 20%;
+    color: white;
+}
+
+.container1 .textbox2 {
+    position: absolute;
+    font-size: 35px;
+    width: 60%;
+    top: 40%;
+    margin-left: 30%;
+    color: white;
+}
+
+.container1 .textbox2 h1 span {
+    color: gold;
+}
+
+.minicontainer {
+    position: absolute;
+    justify-content: space-between;
+    padding: 20px;
+    border: 0px solid white;
+    border-radius: 10px;
+    margin-top: -5%;
+    width: 85%;
+    margin-left: 10%;
+    height: 170px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.minicontainer .I {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.minicontainer .I #Itwo {
+    margin-right: 25px;
+}
+
+.minicontainer .I #Ithree {
+    margin-right: 38.7%;
+}
+
+.minicontainer .T {
+    display: flex;
+    justify-content: space-between;
+}
+
+.minicontainer .I img {
+    width: 30px;
+}
+
+.minicontainer .one {
+    margin-top: 1%;
+}
+
+.minicontainer .two {
+    margin-top: 1%;
+}
+
+.minicontainer .three {
+    margin-top: 1%;
+}
+
+.minicontainer .four {
+    margin-top: 3%;
+}
+
+.minicontainer .four button {
+    margin-top: 5PX;
+    width: 130px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: gold;
+    color: white;
+    border: 0px solid white;
+}
+
+.minicontainer select {
+    margin-top: 10%;
+    width: 200px;
+    padding: 5px;
+}
+
+.minicontainer input {
+    margin-top: 10%;
+    width: 200px;
+    padding: 3px;
+}
+
+#con {
+    text-align: center;
+    margin-top: 7%;
+    font-size: 50px;
+}
+
+.container2 {
+    display: flex;
+    margin-top: 1%;
+    background-color: #ffd700;
+}
+
+.container2 .textbox h3 {
+    color: #021e82;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+.container2 .textbox h1 {
+    color: white;
+    width: 65%;
+    font-size: 60px;
+    margin-left: 5%;
+}
+
+.container2 .textbox p {
+    color: #021e82;
+    width: 45%;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-top: 3%;
+    color: #445f76;
+}
+
+.container2 .textbox .rates {
+    display: flex;
+    width: 32%;
+    margin-left: 5%;
+    margin-top: 3%;
+    font-size: 30px;
+    color: #021e82;
+    justify-content: space-between;
+}
+
+.container2 .textbox .rates span {
+    color: white;
+}
+
+.container2 .Images .image1 img {
+    width: 650px;
+    margin-top: 19%;
+    margin-right: 30px;
+}

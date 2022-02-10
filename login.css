@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/hotel\ room.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.login {
+    width: 300px;
+    height: 380px;
+    background-color: #000000b3;
+    color: #fff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    padding: 70px 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.password {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.username {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.submit {
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: #011478;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: #ffc107;
+    color: #000;
+}
+
+.a {
+    text-decoration: none;
+    font-size: 6px;
+    line-height: 20px;
+    color: darkgrey;
+    transition: 0.4s ease;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -60px;
+    left: calc(50% - 50px)
+}
+
+.a:hover {
+    color: #ffc107;
+}
